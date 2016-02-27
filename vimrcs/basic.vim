@@ -92,6 +92,9 @@ endif
 "Always show current position
 set ruler
 
+" 显示行号
+set number
+
 " Height of the command bar
 set cmdheight=2
 
@@ -112,6 +115,9 @@ set ignorecase
 
 " When searching try to be smart about cases 
 set smartcase
+
+" 高亮显示当前行
+set cursorline
 
 " Highlight search results
 set hlsearch
@@ -154,7 +160,7 @@ endtry
 set background=dark
 
 " Set extra options when running in GUI mode
-if has("gui_running")
+if has("gui_running") 
     set guioptions-=T
     set guioptions-=e
     set t_Co=256
@@ -283,6 +289,16 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Allow us to use Ctrl-s and Ctrl-q as keybinds
+silent !stty -ixon
+
+" Restore default behaviour when leaving Vim.
+autocmd VimLeave * silent !stty ixon
+
+" To save, ctrl-s.
+nmap <C-s> :w<CR>
+imap <C-s> <Esc>:w<CR>a
+
 " Remap VIM 0 to first non-blank character
 map 0 ^
 

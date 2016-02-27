@@ -11,7 +11,7 @@ echo 'set runtimepath+=~/.vim_sec
 source ~/.vim_sec/vimrcs/bundle.vim
 source ~/.vim_sec/vimrcs/basic.vim
 source ~/.vim_sec/vimrcs/filetypes.vim
-
+source ~/.vim_sec/vimrcs/plugins_config.vim
 try
 source ~/.vim_sec/my_configs.vim
 catch
