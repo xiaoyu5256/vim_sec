@@ -15,7 +15,8 @@ git pull --rebase
 git submodule update
 ```
 #### 操作
-`,`映射为`,`
+`<leader>`映射为`,`
+:a
 
 ####文件操作
 快捷键| 操作
