@@ -15,14 +15,14 @@ git pull --rebase
 git submodule update
 ```
 #### 操作
-`<leader>`映射为`,`
+`,`映射为`,`
 
 ####文件操作
 快捷键| 操作
 --- | --- 
 <c-s>|保存文件
 :W|sudo 保存文件
-<leader>,|保存文件
+,w|保存文件
 
 #### 窗口操作
 快捷键| 操作
@@ -35,25 +35,25 @@ git submodule update
 #### buffer操作
 快捷键| 操作
 --- | --- 
-<leader>bd|关闭当前buffer
-<leader>ba|关闭全部buffer
+,bd|关闭当前buffer
+,ba|关闭全部buffer
 
 #### tab页操作
 快捷键| 操作
 --- | --- 
-<leader>tn|新建tab
-<leader>to|仅保留当前tab
-<leader>tc|关闭当前tab
-<leader>tm|移动当前tab
-<leader>t<leader>|切换到下一个tab
-<leader>tl|切换到上次访问的tab
-<leader>te|在新的tab页上打开文件
+,tn|新建tab
+,to|仅保留当前tab
+,tc|关闭当前tab
+,tm|移动当前tab
+,t,|切换到下一个tab
+,tl|切换到上次访问的tab
+,te|在新的tab页上打开文件
 
 #### 编辑
 快捷键| 操作
 --- | --- 
-<leader>a|全选
-<leader>co|复制当前内容到新的tab页
+,a|全选
+,co|复制当前内容到新的tab页
 
 
 #### 插件
