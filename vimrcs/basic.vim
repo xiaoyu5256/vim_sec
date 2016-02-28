@@ -289,15 +289,31 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Allow us to use Ctrl-s and Ctrl-q as keybinds
-silent !stty -ixon
+if has("mac") || has("macunix")
+    " Allow us to use Ctrl-s and Ctrl-q as keybinds
+    silent !stty -ixon
 
-" Restore default behaviour when leaving Vim.
-autocmd VimLeave * silent !stty ixon
+    " Restore default behaviour when leaving Vim.
+    autocmd VimLeave * silent !stty ixon
+endif
 
 " To save, ctrl-s.
 nmap <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>a
+
+inoremap ) ()<Esc>i
+inoremap ( ()<Esc>i
+inoremap { {}<Esc>i
+inoremap } {}<Esc>i
+inoremap [ []<Esc>i
+inoremap ] []<Esc>i
+inoremap > <><Esc>i
+inoremap < <><Esc>i
+inoremap " ""<Esc>i
+inoremap ' ''<Esc>i
+inoremap ` ``<Esc>i
+
+map <leader>a <Esc>ggVG
 
 " Remap VIM 0 to first non-blank character
 map 0 ^
