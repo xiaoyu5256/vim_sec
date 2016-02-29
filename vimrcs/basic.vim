@@ -61,9 +61,14 @@ set wildmenu
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
 if has("win16") || has("win32")
-    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
 else
-    set wildignore+=.git\*,.hg\*,.svn\*
+set wildignore+=.git\*,.hg\*,.svn\*
+endif
+
+" window下窗口最大化
+if has("win16") || has("win32")
+autocmd GUIEnter * simalt ~x
 endif
 
 "Always show current position
@@ -84,7 +89,7 @@ set whichwrap+=<,>,h,l
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+set mouse=a
 endif
 
 " Ignore case when searching
@@ -130,7 +135,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+colorscheme desert
 catch
 endtry
 
@@ -138,10 +143,10 @@ set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running") 
-    set guioptions-=T
-    set guioptions-=e
-    set t_Co=256
-    set guitablabel=%M\ %t
+set guioptions-=T
+set guioptions-=e
+set t_Co=256
+set guitablabel=%M\ %t
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -239,8 +244,8 @@ map <leader>cd :cd %:p:h<cr>:pwd<cr>
 
 " Specify the behavior when switching between buffers 
 try
-  set switchbuf=useopen,usetab,newtab
-  set stal=2
+set switchbuf=useopen,usetab,newtab
+set stal=2
 catch
 endtry
 
@@ -267,11 +272,11 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if has("mac") || has("macunix")
-    " Allow us to use Ctrl-s and Ctrl-q as keybinds
-    silent !stty -ixon
+" Allow us to use Ctrl-s and Ctrl-q as keybinds
+silent !stty -ixon
 
-    " Restore default behaviour when leaving Vim.
-    autocmd VimLeave * silent !stty ixon
+" Restore default behaviour when leaving Vim.
+autocmd VimLeave * silent !stty ixon
 endif
 
 " To save, ctrl-s.
@@ -291,6 +296,10 @@ inoremap ' ''<Esc>i
 inoremap ` ``<Esc>i
 
 map <leader>a <Esc>ggVG
+" 设置快捷键将选中文本块复制至系统剪贴板
+vnoremap <leader>y "+y
+" 设置快捷键将系统剪贴板内容粘贴至 vim
+nmap <leader>p "+p
 
 " Remap VIM 0 to first non-blank character
 map 0 ^

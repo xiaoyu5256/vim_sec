@@ -54,6 +54,8 @@ git submodule update
 快捷键| 操作
 --- | --- 
 ,a|全选
+,y|复制到系统剪切板
+,p|从系统剪切板粘贴
 ,co|复制当前内容到新的tab页
 
 
@@ -70,7 +72,6 @@ map <leader>nf :NERDTreeFind<cr>
 ```
 
 [emmet-vim](https://github.com/mattn/emmet-vim)
-js和css文件使用tab键补全
 
 [vim-commentary](https://github.com/tpope/vim-commentary)
 Visual模式选择多行使用`<c-/>`注释代码
