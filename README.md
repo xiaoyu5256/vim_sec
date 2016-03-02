@@ -5,6 +5,8 @@ vim配置
 
 ```
 git clone https://github.com/xiaoyu5256/vim_sec.git ~/.vim_sec
+cd ~/.vim_sec
+git submodule update --init --recursive
 sh ~/.vim_sec/install_vimrc.sh
 ```
 

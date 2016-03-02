@@ -299,7 +299,9 @@ map <leader>a <Esc>ggVG
 " 设置快捷键将选中文本块复制至系统剪贴板
 vnoremap <leader>y "+y
 " 设置快捷键将系统剪贴板内容粘贴至 vim
-nmap <leader>p "+p
+" nmap <Leader>p "+p 
+" vmap <Leader>p "+p 
+" imap <Leader>p <esc>"+p
 
 " Remap VIM 0 to first non-blank character
 map 0 ^
