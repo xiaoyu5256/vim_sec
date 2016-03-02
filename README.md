@@ -82,6 +82,7 @@ Insert模式直接使用`<c-/>`注释代码
 [Syntastic](https://github.com/scrooloose/syntastic)
 对代码进行语法检查
 
+<!--
 [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 代码补全
 快捷键
@@ -90,4 +91,5 @@ nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>  
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>  
 ```
+-->
 
