@@ -41,7 +41,10 @@ nmap <leader>w :w!<cr>
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
-
+" 修改完后，使配置立即生效
+:nnoremap <leader>sv :source $MYVIMRC<cr>
+" 进入normal模式
+:inoremap jk <esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -299,9 +302,9 @@ map <leader>a <Esc>ggVG
 " 设置快捷键将选中文本块复制至系统剪贴板
 vnoremap <leader>y "+y
 " 设置快捷键将系统剪贴板内容粘贴至 vim
-" nmap <Leader>p "+p 
-" vmap <Leader>p "+p 
-" imap <Leader>p <esc>"+p
+nnoremap <Leader>p "+p 
+vnoremap <Leader>p "+p 
+inoremap <Leader>p <esc>"+p
 
 " Remap VIM 0 to first non-blank character
 map 0 ^
@@ -350,13 +353,9 @@ vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 " To go to the next search result do:
 "   <leader>n
 "
-" To go to the previous search results do:
-"   <leader>p
-"
 map <leader>cc :botright cope<cr>
 map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
 map <leader>n :cn<cr>
-map <leader>p :cp<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -384,8 +383,6 @@ map <leader>q :e ~/buffer<cr>
 " Quickly open a markdown buffer for scribble
 map <leader>x :e ~/buffer.md<cr>
 
-" Toggle paste mode on and off
-map <leader>pp :setlocal paste!<cr>
 
 
 
