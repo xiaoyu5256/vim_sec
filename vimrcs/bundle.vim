@@ -13,6 +13,9 @@ Plugin 'tpope/vim-commentary'
 Plugin 'scrooloose/syntastic'
 " 状态栏美化
 Plugin 'vim-airline/vim-airline'
+" markdown 插件
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 call vundle#end()
 
 

@@ -93,3 +93,12 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 " let g:ycm_min_num_of_chars_for_completion=1  
 "不查询ultisnips提供的代码模板补全，如果需要，设置成1即可  
 " let g:ycm_use_ultisnips_completer=0 
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-markdown
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 禁用折叠
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_toc_autofit = 1
