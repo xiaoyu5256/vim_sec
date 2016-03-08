@@ -123,13 +123,13 @@ map gB :bprev<cr>
 " => nerdtree-git-plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeIndicatorMapCustom = {
-            \ "Modified"  : "o",
-            \ "Staged"    : "+",
-            \ "Untracked" : "*",
-            \ "Renamed"   : "?",
+            \ "Modified"  : "m",
+            \ "Staged"    : "s",
+            \ "Untracked" : "us",
+            \ "Renamed"   : "r",
             \ "Unmerged"  : "═", 
-            \ "Deleted"   : "X",
-            \ "Dirty"     : "x",
+            \ "Deleted"   : "d",
+            \ "Dirty"     : "c",
             \ "Clean"     : "@",
             \ "Unknown"   : "?"
             \ }
