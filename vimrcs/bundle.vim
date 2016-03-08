@@ -20,6 +20,8 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'bufexplorer.zip'
 " 显示git状态信息
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+" git 命令行
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 

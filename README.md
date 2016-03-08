@@ -134,3 +134,6 @@ map gz :bdelete<cr>
 map gb :bnext<cr>
 map gB :bprev<cr>
 ```
+
+[vim-fugitive](https://github.com/tpope/vim-fugitive)
+git命令
