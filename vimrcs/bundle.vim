@@ -18,6 +18,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 " buffer管理
 Plugin 'bufexplorer.zip'
+" 显示git状态信息
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 call vundle#end()
 
 

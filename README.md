@@ -77,6 +77,14 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
 map <leader>nf :NERDTreeFind<cr>
 ```
+[nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
+在目录显示git修改信息
+
+[peaksea](https://github.com/vim-scripts/peaksea)
+主题
+
+[vim-airline](https://github.com/vim-airline/vim-airline)
+状态栏美化
 
 [emmet-vim](https://github.com/mattn/emmet-vim)
 
