@@ -102,3 +102,17 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 " 禁用折叠
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_toc_autofit = 1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => bufexplorer.zip
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" CTRL+b opens the buffer list
+map <C-b> <esc>:BufExplorer<cr>
+
+" gz in command mode closes the current buffer
+map gz :bdelete<cr>
+
+" g[bB] in command mode switch to the next/prev. buffer
+map gb :bnext<cr>
+map gB :bprev<cr>

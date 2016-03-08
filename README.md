@@ -98,3 +98,18 @@ nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 ```
 -->
 [vim-markdown](https://github.com/plasticboy/vim-markdown)
+
+
+[bufexplorer.zip](https://github.com/vim-scripts/bufexplorer.zip)
+快捷键
+```
+" CTRL+b opens the buffer list
+map <C-b> <esc>:BufExplorer<cr>
+
+" gz in command mode closes the current buffer
+map gz :bdelete<cr>
+
+" g[bB] in command mode switch to the next/prev. buffer
+map gb :bnext<cr>
+map gB :bprev<cr>
+```
