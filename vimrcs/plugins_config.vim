@@ -116,3 +116,20 @@ map gz :bdelete<cr>
 " g[bB] in command mode switch to the next/prev. buffer
 map gb :bnext<cr>
 map gB :bprev<cr>
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => nerdtree-git-plugin
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:NERDTreeIndicatorMapCustom = {
+            \ "Modified"  : "o",
+            \ "Staged"    : "+",
+            \ "Untracked" : "*",
+            \ "Renamed"   : "?",
+            \ "Unmerged"  : "═", 
+            \ "Deleted"   : "X",
+            \ "Dirty"     : "x",
+            \ "Clean"     : "@",
+            \ "Unknown"   : "?"
+            \ }

@@ -79,6 +79,19 @@ map <leader>nf :NERDTreeFind<cr>
 ```
 [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 在目录显示git修改信息
+```
+let g:NERDTreeIndicatorMapCustom = {
+            \ "Modified"  : "o",
+            \ "Staged"    : "+",
+            \ "Untracked" : "*",
+            \ "Renamed"   : "?",
+            \ "Unmerged"  : "═", 
+            \ "Deleted"   : "X",
+            \ "Dirty"     : "x",
+            \ "Clean"     : "@",
+            \ "Unknown"   : "?"
+            \ }
+```
 
 [peaksea](https://github.com/vim-scripts/peaksea)
 主题
