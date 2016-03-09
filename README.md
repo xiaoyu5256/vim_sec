@@ -81,13 +81,13 @@ map <leader>nf :NERDTreeFind<cr>
 在目录显示git修改信息
 ```
 let g:NERDTreeIndicatorMapCustom = {
-            \ "Modified"  : "m",
-            \ "Staged"    : "s",
-            \ "Untracked" : "us",
-            \ "Renamed"   : "r",
-            \ "Unmerged"  : "═", 
-            \ "Deleted"   : "d",
-            \ "Dirty"     : "c",
+            \ "Modified"  : "=",
+            \ "Staged"    : "+",
+            \ "Untracked" : "*",
+            \ "Renamed"   : "➜",
+            \ "Unmerged"  : "!", 
+            \ "Deleted"   : "X",
+            \ "Dirty"     : "x",
             \ "Clean"     : "@",
             \ "Unknown"   : "?"
             \ }
