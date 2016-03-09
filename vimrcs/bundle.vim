@@ -22,6 +22,8 @@ Plugin 'bufexplorer.zip'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 " git 命令行
 Plugin 'tpope/vim-fugitive'
+" ctrlp.vim
+Plugin 'kien/ctrlp.vim'
 call vundle#end()
 
 

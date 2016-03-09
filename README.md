@@ -137,3 +137,6 @@ map gB :bprev<cr>
 
 [vim-fugitive](https://github.com/tpope/vim-fugitive)
 git命令
+
+[ctrlp.vim](https://github.com/kien/ctrlp.vim)
+文件，buffer查找
