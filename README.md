@@ -113,9 +113,9 @@ Insert模式直接使用`<c-/>`注释代码
 代码补全
 快捷键
 ```
-nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>  
-nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>  
-nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>  
+nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 ```
 -->
 [vim-markdown](https://github.com/plasticboy/vim-markdown)
@@ -140,3 +140,56 @@ git命令
 
 [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 文件，buffer查找
+
+[bitc/vim-bad-whitespace](https://github.com/bitc/vim-bad-whitespace)
+显示多余的空格
+
+[indentpython](https://github.com/vim-scripts/indentpython.vim)
+python缩进
+
+[vim-flake8](https://github.com/nvie/vim-flake8)
+PEP8风格检查
+
+
+
+
+
+
+
+
+[ctrlp-funky](https://github.com/tacahiroy/ctrlp-funky)
+函数模糊匹配查找(,fu)
+
+[auto-pairs](https://github.com/jiangmiao/auto-pairs)
+括号自动匹配 
+
+[vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+光标多行编辑 <C-n> <C-x> <C-p> 推荐：****
+
+[vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+配色主题 
+
+[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
+缩进引导线 
+
+
+
+
+##### python
+[python.vim](https://github.com/yssource/python.vim)
+[python_match](https://github.com/yegle/python_match)
+[pythoncomplete](https://github.com/vim-scripts/pythoncomplete)
+
+##### js
+[vim-json](https://github.com/elzr/vim-json)
+[vim-less](https://github.com/groenewege/vim-less)
+[vim-javascript](https://github.com/pangloss/vim-javascript)
+[vim-jst](https://github.com/briancollins/vim-jst)
+[vim-coffee-script](https://github.com/kchmck/vim-coffee-script)
+
+##### html 
+[HTML-AutoCloseTag](https://github.com/amirh/HTML-AutoCloseTag)
+[vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
+[vim-coffee-script](https://github.com/gorodinskiy/vim-coloresque)
+[vim-haml](https://github.com/tpope/vim-haml)
+
