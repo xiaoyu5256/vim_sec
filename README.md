@@ -179,6 +179,7 @@ PEP8风格检查
 [python.vim](https://github.com/vim-scripts/python.vim)
 [python_match](https://github.com/yegle/python_match)
 [jedi-vim](https://github.com/davidhalter/jedi-vim)
+[vim-scripts/UltiSnips](https://github.com/vim-scripts/UltiSnips)
 
 ##### js
 [vim-json](https://github.com/elzr/vim-json)
