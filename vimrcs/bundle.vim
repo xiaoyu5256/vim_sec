@@ -41,9 +41,9 @@ Plugin 'nvie/vim-flake8'
 " python 显示多余空格
 Plugin 'bitc/vim-bad-whitespace'
 " python 推荐：****
-Bundle 'yssource/python.vim'
+Bundle 'vim-scripts/python.vim'
 Bundle 'python_match.vim'
-Bundle 'pythoncomplete'
+Bundle 'davidhalter/jedi-vim'
 " js 推荐：****
 Bundle 'elzr/vim-json'
 Bundle 'groenewege/vim-less'

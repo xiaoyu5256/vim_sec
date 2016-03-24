@@ -74,7 +74,7 @@ jk|在插入模式执行jk,进入normal模式
 快捷键映射
 ```
 map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark 
+map <leader>nb :NERDTreeFromBookmark
 map <leader>nf :NERDTreeFind<cr>
 ```
 [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
@@ -85,7 +85,7 @@ let g:NERDTreeIndicatorMapCustom = {
             \ "Staged"    : "+",
             \ "Untracked" : "*",
             \ "Renamed"   : "➜",
-            \ "Unmerged"  : "!", 
+            \ "Unmerged"  : "!",
             \ "Deleted"   : "X",
             \ "Dirty"     : "x",
             \ "Clean"     : "@",
@@ -161,24 +161,24 @@ PEP8风格检查
 函数模糊匹配查找(,fu)
 
 [auto-pairs](https://github.com/jiangmiao/auto-pairs)
-括号自动匹配 
+括号自动匹配
 
 [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 光标多行编辑 <C-n> <C-x> <C-p> 推荐：****
 
 [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
-配色主题 
+配色主题
 
 [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
-缩进引导线 
+缩进引导线
 
 
 
 
 ##### python
-[python.vim](https://github.com/yssource/python.vim)
+[python.vim](https://github.com/vim-scripts/python.vim)
 [python_match](https://github.com/yegle/python_match)
-[pythoncomplete](https://github.com/vim-scripts/pythoncomplete)
+[jedi-vim](https://github.com/davidhalter/jedi-vim)
 
 ##### js
 [vim-json](https://github.com/elzr/vim-json)
@@ -187,7 +187,7 @@ PEP8风格检查
 [vim-jst](https://github.com/briancollins/vim-jst)
 [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)
 
-##### html 
+##### html
 [HTML-AutoCloseTag](https://github.com/amirh/HTML-AutoCloseTag)
 [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
 [vim-coffee-script](https://github.com/gorodinskiy/vim-coloresque)
