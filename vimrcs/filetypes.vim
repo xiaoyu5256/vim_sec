@@ -26,4 +26,4 @@ au FileType python map <buffer> <leader>D ?def
 """"""""""""""""""""""""""""""
 " => js html css section
 """"""""""""""""""""""""""""""
-au BufNewFile,BufRead *.js, *.html, *.css set tabstop=2 softtabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.js,*.html,*.css set tabstop=2 softtabstop=2 shiftwidth=2
