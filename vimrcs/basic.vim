@@ -155,10 +155,11 @@ set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running") 
-set guioptions-=T
-set guioptions-=e
-set t_Co=256
-set guitablabel=%M\ %t
+    set guioptions-=T
+    set guioptions-=e
+    set t_Co=256
+    set guitablabel=%M\ %t
+    set guifont=Lucida_Console:h11
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -168,7 +169,7 @@ set encoding=utf8
 set ffs=unix,dos,mac
 
 " 设置 gvim 显示字体
-set guifont=YaHei\ Consolas\ Hybrid\ 11.5
+" set guifont=YaHei\ Consolas\ Hybrid\ 11.5
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
